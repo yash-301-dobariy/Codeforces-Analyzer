@@ -45,8 +45,7 @@ function App() {
 
   const [matchScore1, setMatchScore1] = useState('');
   const [matchScore2, setMatchScore2] = useState('');
-
-  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://127.0.0.1:8000';
+  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://codeforces-analyzer-2.onrender.com';
   useEffect(() => { if (activeTab === 'blogs' && blogs.length === 0) fetchBlogs(); }, [activeTab]);
   useEffect(() => {
     if (isDarkMode) document.documentElement.classList.add('dark');
