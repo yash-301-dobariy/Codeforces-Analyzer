@@ -58,6 +58,14 @@ def fetch_global_problemset():
 # ==========================================
 #               ENDPOINTS
 # ==========================================
+
+@app.get("/")
+def root():
+    return {
+        "status": "running",
+        "message": "Codeforces Analyzer API"
+    }
+
 @app.get("/api/v1/blogs")
 def get_blogs(): 
     conn = sqlite3.connect(DB_FILE)

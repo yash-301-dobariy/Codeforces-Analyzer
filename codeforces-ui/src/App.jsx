@@ -17,7 +17,7 @@ const MOCK_RATING_DATA = [
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
-  const [handle, setHandle] = useState('tanminati');
+  const [handle, setHandle] = useState('yaio.abc');
   const [rivalHandle, setRivalHandle] = useState('jiangly');
   const [isDarkMode, setIsDarkMode] = useState(true); 
   
@@ -27,7 +27,7 @@ function App() {
   const [mashupTags, setMashupTags] = useState(['dp', 'greedy']); 
   const [mashupDuration, setMashupDuration] = useState(120); 
   const [contestCount, setContestCount] = useState(4);
-  const [leaderboardInput, setLeaderboardInput] = useState('tanminati, jiangly');
+  const [leaderboardInput, setLeaderboardInput] = useState('yaio.abc, jiangly');
   
   const [leaderboardData, setLeaderboardData] = useState([]);
   const [blogs, setBlogs] = useState([]);
