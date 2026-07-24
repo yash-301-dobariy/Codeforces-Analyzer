@@ -62,8 +62,7 @@ def fetch_global_problemset():
 @app.get("/")
 def root():
     return {
-        "status": "running",
-        "message": "Codeforces Analyzer API"
+        "message": "Welcome to Codeforces Analyzer API 🚀"
     }
 
 @app.get("/api/v1/blogs")

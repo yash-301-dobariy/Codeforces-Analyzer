@@ -4,7 +4,8 @@ A full-stack Codeforces analytics platform built with **React** and **FastAPI** 
 
 ## 🌐 Live Demo
 
-**Frontend:** https://your-vercel-link.vercel.app
+**Frontend:** https://your-vercel-link.vercel.app 
+
 **Backend API**: https://codeforces-analyzer-2.onrender.com/
 
 ## ✨ Features
