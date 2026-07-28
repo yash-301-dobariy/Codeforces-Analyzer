@@ -4,7 +4,7 @@ A full-stack Codeforces analytics platform built with **React** and **FastAPI** 
 
 ## 🌐 Live Demo
 
-**Frontend:** https://your-vercel-link.vercel.app 
+**Frontend:** https://codeforces-analyzer-vert.vercel.app/ 
 
 **Backend API**: https://codeforces-analyzer-2.onrender.com/
 
@@ -22,7 +22,7 @@ A full-stack Codeforces analytics platform built with **React** and **FastAPI** 
 
 ## 🛠 Tech Stack
 
-* **Frontend:** React, Vite, Axios, Tailwind CSS, Recharts
+* **Frontend:** React, Vite, Axios, Recharts
 * **Backend:** FastAPI, Python
 
 ## 🚀 Run Locally
